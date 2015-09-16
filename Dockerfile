@@ -1,5 +1,7 @@
 FROM michelesr/latex
 
+MAINTAINER Michele Sorcinelli "mikefender@cryptolab.net"
+
 USER root
 
 RUN apt update && \
